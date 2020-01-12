@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+Sessions hold data about a user. The reason usually is for data perserverance. This allows a user to manuver through a web app without having to log in every time there is a change - such as moving between pages or posts.
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+Bcrypt uses an algorithm to hash the password. This algorithm hashes the password multiple times as well as adds salt to the hashed password. 
 
 - [ ] What does bcrypt do to slow down attackers?
 
+Bcrypt adds time to the hash which creates the KDF (key derivation function). This KDF is what slows down the attackers.
+
 - [ ] What are the three parts of the JSON Web Token?
+
+The three parts of a JWT are the: header.payload.signature.
 
 ## Minimum Viable Product
 
